@@ -1,0 +1,193 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.copyright p {
+  text-align: center;
+  font-weight: 400;
+  color: #6f6a86;
+}
+
+.header-third {
+  font-size: 22px;
+  color: #211b3d;
+  font-weight: 600;
+}
+
+.subheader {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5b5575;
+}
+
+.steps .item-step .support {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5b5575;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.btn-master,
+.btn-thirdty,
+.btn-primary,
+.btn-secondary {
+  padding: 11px 36px 11px 36px;
+  border-radius: 100px;
+  border: 0;
+  font-weight: 500;
+}
+
+.btn-thirdty {
+  background: #31b380;
+  color: #fff;
+}
+
+.btn-primary {
+  background: #2398f2;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #31b380;
+}
+
+.story {
+  font-weight: 600;
+  font-size: 16px;
+  color: #31b380;
+}
+
+.primary-header {
+  font-weight: 600;
+  font-size: 30px;
+  color: #211b3d;
+}
+
+.header-wrap .primary-header {
+  margin-top: 8px;
+}
+
+.text-purple {
+  color: #2398f2;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.btn-secondary {
+  background: #f5efff;
+  color: #2398f2;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0;
+}
+
+.home.banner, #about.banner {
+  margin-top: -70px;
+}
+
+.banner .header {
+  margin: 20px 0 20px 0;
+  font-size: 42px;
+  color: #211b3d;
+  font-weight: 600;
+}
+
+.banner .support {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5b5575;
+  line-height: 30px;
+}
+
+.banner .cta {
+  margin-top: 30px;
+}
+
+.banner .brands {
+  margin-top: 60px;
+}
+
+.banner .brands img {
+  height: 40px;
+}
+
+.dashboard .table tr {
+  border: 1px solid #fff;
+}
+
+.text-green {
+  color: #31b380 !important;
+}
+
+.text-red {
+  color: #f73353 !important;
+}
+
+.navbar {
+  box-shadow: 1px 8px 61px 0px rgba(22, 28, 51, 0.08);
+  -webkit-box-shadow: 1px 8px 61px 0px rgba(22, 28, 51, 0.08);
+  -moz-box-shadow: 1px 8px 61px 0px rgba(22, 28, 51, 0.08);
+  padding: 24px 0 24px 0;
+  background-color: white;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #2398f2;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #211b3d;
+  font-weight: 400;
+  padding-left: 30px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #2398f2;
+  font-weight: 500;
+}
+
+.navbar .navbar-brand img {
+  height: 42px;
+}
+
+.gallery-item {
+  margin-bottom: 30px;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  max-height: 300px; 
+  width: auto;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .home.banner, #about.banner{
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home.banner, #about.banner {
+    margin-top: 70px;
+  }
+  
+  .banner img {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .home.banner{
+    margin-top: 50px;
+  }
+}
